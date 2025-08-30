@@ -39,3 +39,16 @@ A generated Sierpiński gasket appears as a recursive triangular fractal
 ## Notes
 - This project demonstrates the use of recursion in Python for graphical output
 - It was completed as an academic exercise and is not actively maintained
+
+---
+### Academic Use Disclaimer
+This repository is an archived academic project completed as part of coursework at [Randolph-Macon College](http://catalog.rmc.edu/academic-regulations/academic-integrity/).  
+It is provided **for portfolio and reference purposes only**.  
+
+If you are a current student, do not copy or submit this work as your own.  
+Course assignments may have changed since this project was completed, and instructors actively use plagiarism detection tools.  
+
+I encourage you to use this repository only as a learning reference.
+---
+
+
