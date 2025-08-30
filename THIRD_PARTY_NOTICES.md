@@ -1,5 +1,8 @@
-This project uses third-party software:
+# Third-party notices
 
-- ezgraphics.py
+This project relies on the EzGraphics package.
 
-See each project’s own license for terms. This repository is provided for portfolio and reference purposes only.
+- EzGraphics: see https://www.ezgraphics.org/Software/Download for distribution and license.  
+- EzGraphics is not included in this repository.
+
+No copies of EzGraphics are distributed here.
