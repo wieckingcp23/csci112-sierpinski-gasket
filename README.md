@@ -2,45 +2,75 @@
 
 **Type:** Course Work  
 **Institution:** Randolph-Macon College  
+**Course:** CSCI 112 Data Structures  
 **Date:** 3 May 2019  
-**Grade:** 40/40  
+**Grade:** 40/40
 
 ---
 
 ## Description
-This project was my submission for the final lab assignment in **CSCI 112: Data Structures**. The task was to implement recursion to generate a **Sierpiński gasket**, a well-known fractal pattern  
+Recursive implementation of the Sierpiński gasket (triangle) rendered using the EzGraphics package.
 
-The program relies on the `ezgraphics.py` library for rendering the graphical output
+This repository contains my final lab submission for CSCI 112. It demonstrates recursion and simple graphical rendering.
 
 ---
+
+## Prerequisite: EzGraphics
+
+This project depends on the EzGraphics package, which is not included here.
+
+Download and instructions: https://www.ezgraphics.org/Software/Download
+
+Install after downloading `ezgraphics-2.2.tar.gz`:
+
+**Linux**
+```bash
+python3 -m pip install ~/Downloads/ezgraphics-2.2.tar.gz
+# or
+pip3 install ~/Downloads/ezgraphics-2.2.tar.gz
+```
+**macOS**
+```bash
+python3 -m pip install ~/Downloads/ezgraphics-2.2.tar.gz
+# If using Anaconda:
+~/anaconda/bin/pip3 install ~/Downloads/ezgraphics-2.2.tar.gz
+```
+**Windows (PowerShell)**
+```powershell
+Copy code
+py -m pip install "$env:USERPROFILE\Downloads\ezgraphics-2.2.tar.gz"
+# If using Anaconda:
+C:\Anaconda3\Scripts\pip3 install "$env:USERPROFILE\Downloads\ezgraphics-2.2.tar.gz"
+```
+**Tip: Do not commit EzGraphics files to this repository.**
 
 ## Requirements
-- Python 3.x  
-- `ezgraphics.py` (must be available in the project directory or installed)
-
----
+- Python 3.x
+- EzGraphics installed system-wide (see above)
 
 ## How to Run
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/wieckingcp23/gasket.git
-   cd gasket
-   ```
-2. Ensure that ezgraphics.py is available
-3. Run the script:
-   ```bash
-   python gasket.py
-   ```
----
-## Example Output
-A generated Sierpiński gasket appears as a recursive triangular fractal
+```bash
+git clone https://github.com/wieckingcp23/gasket.git
+cd gasket
+```
+2. Ensure EzGraphics is installed as shown above.
+3. Run:
+```bash
+Copy code
+python gasket.py
+```
+### Example Output
+Running the program draws a Sierpiński gasket as a recursive triangular fractal.
 
----
+## Repository Contents
+- gasket.py — Recursive Sierpiński gasket program
+- README.md — This document
+
 ## Notes
-- This project demonstrates the use of recursion in Python for graphical output
-- It was completed as an academic exercise and is not actively maintained
+- This project was completed as an academic exercise and is not actively maintained.
+- EzGraphics is third-party course material. It remains the property of its respective copyright holder.
 
----
 ### Academic Use Disclaimer
 This repository is an archived academic project completed as part of coursework at [Randolph-Macon College](http://catalog.rmc.edu/academic-regulations/academic-integrity/).  
 It is provided **for portfolio and reference purposes only**.  
@@ -50,5 +80,3 @@ Course assignments may have changed since this project was completed, and instru
 
 I encourage you to use this repository only as a learning reference.
 ---
-
-
